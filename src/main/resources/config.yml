@@ -1,0 +1,24 @@
+# DO NOT CHANGE unless you know how to manually upgrade the configuration file
+version: 1
+
+# Available: "en_US", "zh_CN"
+language: "en_US"
+
+# Available: "linear", "logarithmic"
+algorithm: "logarithmic"
+
+# Damage greater than this will it be limited
+threshold: 30.0
+
+# Controls the magnitude of damage limitation.
+# For linear algorithms:
+#   The factor must be >= 0 (fully limited to the threshold), and <= 1 (no limitation applied).
+#   The smaller the value, the greater the magnitude of the restriction.
+# For logarithmic algorithms:
+#   The factor must be > 1.
+#   The larger the value, the greater the magnitude of the restriction.
+factor: 1.5
+
+# Whether to alert console that someone has caused more damage than the threshold
+# true=Yes, false=No
+notifyConsole: true

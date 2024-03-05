@@ -1,0 +1,14 @@
+name: DamageLimit
+version: '${project.version}'
+description: "Limit the player's damage"
+authors: [ MCUmbrella ]
+website: https://github.com/MSUPlugins/DamageLimit
+main: vip.floatationdevice.msu.damagelimit.DamageLimit
+api-version: 1.13
+load: POSTWORLD
+depend:
+  - MSUCore
+permissions:
+  damagelimit.bypass:
+    description: "Bypass damage limit"
+    default: op

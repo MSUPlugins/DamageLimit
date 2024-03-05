@@ -1,0 +1,5 @@
+language: "English (US)"
+language-file-version: 1
+language-file-contributor: "MCUmbrella"
+
+damage-limited-console: "Limited damage of {0} from {1} to {2}"

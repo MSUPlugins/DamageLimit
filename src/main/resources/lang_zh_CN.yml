@@ -1,0 +1,5 @@
+language: "中文（中国）"
+language-file-version: 1
+language-file-contributor: "MCUmbrella"
+
+damage-limited-console: "{0} 造成的伤害从 {1} 调整为 {2}"
